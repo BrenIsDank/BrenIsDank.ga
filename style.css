@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900');
+body,
+html {
+    margin: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    display: none;
+}
+
+.gradient {
+    background-color: #9fc;
+    background-image: -webkit-linear-gradient(right, #9cf 0%, #f9c 25%, #fc9 50%, #9fc 75%, #9cf 100%);
+    background-image: -moz-linear-gradient(right, #9cf 0%, #f9c 25%, #fc9 50%, #9fc 75%, #9cf 100%);
+    background-image: linear-gradient(to right, #9cf 0%, #f9c 25%, #fc9 50%, #9fc 75%, #9cf 100%);
+    background-size: 400% 100%;
+    -webkit-animation: header-anim 80s infinite linear;
+    -moz-animation: header-anim 80s infinite linear;
+    animation: header-anim 80s infinite linear;
+    padding: 50px 0 0 0;
+}
+
+a {
+    color: #00E676;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #00E676;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: inherit;
+}
+
+nav {
+    min-height: 50px;
+    font-family: 'Heebo', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 1111;
+}
+
+.neave {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-image: linear-gradient(to bottom, #9fc 0%, #9cf 25%, #f9c 50%, #fc9 75%, #9fc 100%);
+    -webkit-background-size: 100% 400%;
+    -moz-background-size: 100% 400%;
+    background-size: 100% 400%;
+    -webkit-animation: neave-anim 8s infinite linear;
+    -moz-animation: neave-anim 8s infinite linear;
+    animation: neave-anim 8s infinite linear;
+    opacity: 1;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.neave a,
+.neave a:hover {
+    position: absolute;
+    top: 0px;
+    left: 11px;
+    text-decoration: inherit;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+    background-color: transparent!important;
+}
+
+main {
+    max-width: 650px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 100%;
+}
+
+.page {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.page h1,
+.page p {
+    font-weight: 100;
+}
+
+#w2 span {
+    color: white;
+    background-color: blue;
+}
+
+#w1,
+#w2,
+#w3,
+#w4,
+.page {
+    display: none;
+    font-weight: 800;
+}
+
+
+
+#rainbow{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+@-webkit-keyframes neave-anim {
+    to {
+        background-position: 0 400%;
+    }
+}
+
+@-moz-keyframes neave-anim {
+    to {
+        background-position: 0 400%;
+    }
+}
+
+@keyframes neave-anim {
+    to {
+        background-position: 0 400%;
+    }
+}
+
+@-webkit-keyframes header-anim {
+    to {
+        background-position: 400% 0;
+    }
+}
+
+@-moz-keyframes header-anim {
+    to {
+        background-position: 400% 0;
+    }
+}
+
+@keyframes header-anim {
+    to {
+        background-position: 400% 0;
+    }
+}
